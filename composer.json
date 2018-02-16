@@ -1,0 +1,31 @@
+{
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/"},
+		{"type":"git", "url":"https://github.com/ashbhosale/Order-Ext.git"},
+		{"type":"git", "url":"https://github.com/ashbhosale/SC-Ext.git"}
+	],
+	"name": "typo3/cms-base-distribution",
+	"description" : "TYPO3 CMS Base Distribution",
+	"license": "GPL-2.0+",
+	"require": {
+		"typo3/cms": "^8.7",
+		"helhum/typo3-console": "^4.4",
+		"typo3/cms-rte-ckeditor": "^8.7",
+		"bk2k/bootstrap-package": "dev-master",
+		"typo3/cms-felogin": "^8.7",
+		"in2code/femanager": "^4.0",
+		"orderext/orderext": "dev-master",
+		"servicechargeextension/servicechargeextension": "dev-master"
+	},
+	"extra": {
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": "web"
+		}
+	},
+	"require-dev": {
+		"friendsoftypo3/extension-builder": "dev-master",
+		"typo3/cms-tstemplate": "^8.7",
+		"typo3/cms-t3editor": "^8.7"
+	}
+}

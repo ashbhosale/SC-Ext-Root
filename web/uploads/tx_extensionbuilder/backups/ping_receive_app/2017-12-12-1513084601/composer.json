@@ -1,0 +1,19 @@
+{
+    "name": "testing/ping-receive-app",
+    "type": "typo3-cms-extension",
+    "description": "provide application logic and domain Layer",
+    "authors": [
+        {
+            "name": "Aishwarya",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Testing\\PingReceiveApp\\": "Classes"
+        }
+    }
+}

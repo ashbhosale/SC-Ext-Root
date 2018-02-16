@@ -1,0 +1,19 @@
+{
+    "name": "dishextension/dishextension",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Aishwarya Bhosale",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DishExtension\\Dishextension\\": "Classes"
+        }
+    }
+}

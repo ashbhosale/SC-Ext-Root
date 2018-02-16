@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-02-09T14:58:30Z" product-name="dishextension">
+		<header/>
+		<body>
+			<trans-unit id="tx_dishextension_domain_model_dish">
+				<source>Dish</source>
+			</trans-unit>
+			<trans-unit id="tx_dishextension_domain_model_dish.id">
+				<source>Id</source>
+			</trans-unit>
+			<trans-unit id="tx_dishextension_domain_model_dish.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_dishextension_domain_model_dish.price">
+				<source>Price</source>
+			</trans-unit>
+			<trans-unit id="tx_dishextension_domain_model_dish.type">
+				<source>Type</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

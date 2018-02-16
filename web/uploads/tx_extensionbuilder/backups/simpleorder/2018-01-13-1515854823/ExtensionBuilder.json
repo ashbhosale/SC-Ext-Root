@@ -1,0 +1,290 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    22,
+                    116
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Customer",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "703032683680"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "1115350074040"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "address",
+                            "propertyType": "String",
+                            "uid": "592873183404"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "email",
+                            "propertyType": "Email",
+                            "uid": "59249760086"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "orders",
+                            "relationType": "zeroToMany",
+                            "relationWire": "[wired]",
+                            "renderType": "inline",
+                            "uid": "222310437246"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    296,
+                    44
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Order",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "426477630485"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "orderid",
+                            "propertyType": "Integer",
+                            "uid": "1497666146539"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "ordertype",
+                            "propertyType": "String",
+                            "uid": "829899421931"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": [
+                        {
+                            "foreignRelationClass": "",
+                            "lazyLoading": false,
+                            "propertyIsExcludeField": true,
+                            "relationDescription": "",
+                            "relationName": "dishes",
+                            "relationType": "zeroToOne",
+                            "relationWire": "[wired]",
+                            "renderType": "selectSingleBox",
+                            "uid": "137377677454"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "config": {
+                "position": [
+                    580,
+                    227
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Dish",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "563778871154"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "dishname",
+                            "propertyType": "String",
+                            "uid": "651198121502"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "dishdescription",
+                            "propertyType": "String",
+                            "uid": "846985789177"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "This website is used for the purpose of online ordering system",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "simpleorder",
+        "name": "PingAndReceive",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Aishwarya",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Order=>list,show",
+                    "noncacheableActions": "Order=>list",
+                    "switchableActions": ""
+                },
+                "description": "Deliveries of food items ",
+                "key": "ordersystem",
+                "name": "Order"
+            }
+        ],
+        "vendorName": "PingAndReceive"
+    },
+    "wires": [
+        {
+            "src": {
+                "moduleId": 0,
+                "terminal": "relationWire_0",
+                "uid": "222310437246"
+            },
+            "tgt": {
+                "moduleId": 1,
+                "terminal": "SOURCES",
+                "uid": "426477630485"
+            }
+        },
+        {
+            "src": {
+                "moduleId": 1,
+                "terminal": "relationWire_0",
+                "uid": "137377677454"
+            },
+            "tgt": {
+                "moduleId": 2,
+                "terminal": "SOURCES",
+                "uid": "563778871154"
+            }
+        }
+    ],
+    "log": {
+        "last_modified": "2018-01-13 03:41",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

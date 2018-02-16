@@ -1,0 +1,50 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "provide application logic and domain Layer",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "ping_receive_app",
+        "name": "PingAndReceive",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Aishwarya",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "FoodItem=>list,show,order",
+                    "noncacheableActions": "FoodType=>order",
+                    "switchableActions": ""
+                },
+                "description": "Deliveries of food items ",
+                "key": "food",
+                "name": "Food"
+            }
+        ],
+        "vendorName": "Testing"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2017-12-12 02:06",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

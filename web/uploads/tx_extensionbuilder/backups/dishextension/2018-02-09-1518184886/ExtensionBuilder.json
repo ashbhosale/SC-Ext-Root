@@ -1,0 +1,131 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    268,
+                    83
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "Dish",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "433911043291"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "id",
+                            "propertyType": "Integer",
+                            "uid": "615078923925"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "description",
+                            "propertyType": "String",
+                            "uid": "1097891523659"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "price",
+                            "propertyType": "Integer",
+                            "uid": "147498844623"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "type",
+                            "propertyType": "String",
+                            "uid": "220381844719"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "dishextension",
+        "name": "DishExtension",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Hochschule Hof",
+                "email": "aishwarya.bhosale@hof-university.de",
+                "name": "Aishwarya Bhosale",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "",
+                "key": "infodish",
+                "name": "InfoDish"
+            }
+        ],
+        "vendorName": "DishExtension"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-02-09 02:58",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-12-12T14:06:37Z" product-name="ping_receive_app">
+		<header/>
+		<body>
+			<trans-unit id="tx_ping_receive_app_food.name">
+				<source>Food</source>
+			</trans-unit>
+			<trans-unit id="tx_ping_receive_app_food.description">
+				<source>Deliveries of food items </source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

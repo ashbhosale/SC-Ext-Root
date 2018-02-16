@@ -1,0 +1,50 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "This website is used for the purpose of online ordering system",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "simpleorder",
+        "name": "PingAndReceive",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "",
+                "name": "Aishwarya",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "Deliveries of food items ",
+                "key": "ordersystem",
+                "name": "Order"
+            }
+        ],
+        "vendorName": "PingAndReceive"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-01-13 01:35",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

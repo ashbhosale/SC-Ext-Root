@@ -1,0 +1,19 @@
+{
+    "name": "pingandreceive/simpleorder",
+    "type": "typo3-cms-extension",
+    "description": "This website is used for the purpose of online ordering system",
+    "authors": [
+        {
+            "name": "Aishwarya",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PingAndReceive\\Simpleorder\\": "Classes"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-13T15:39:49Z" product-name="simpleorder">
+		<header/>
+		<body>
+			<trans-unit id="orderid.description">
+				<source>orderid</source>
+			</trans-unit>
+			<trans-unit id="ordertype.description">
+				<source>ordertype</source>
+			</trans-unit>
+			<trans-unit id="dishes.description">
+				<source>dishes</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

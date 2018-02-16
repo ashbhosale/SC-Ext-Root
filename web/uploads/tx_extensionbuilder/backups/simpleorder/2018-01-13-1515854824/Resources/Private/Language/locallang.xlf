@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-01-13T15:47:03Z" product-name="simpleorder">
+		<header/>
+		<body>
+			<trans-unit id="tx_simpleorder_domain_model_customer">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_customer.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_customer.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_customer.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_customer.orders">
+				<source>Orders</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_order">
+				<source>Order</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_order.orderid">
+				<source>Orderid</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_order.ordertype">
+				<source>Ordertype</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_order.dishes">
+				<source>Dishes</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_dish">
+				<source>Dish</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_dish.dishname">
+				<source>Dishname</source>
+			</trans-unit>
+			<trans-unit id="tx_simpleorder_domain_model_dish.dishdescription">
+				<source>Dishdescription</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

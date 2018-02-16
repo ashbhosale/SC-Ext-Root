@@ -1,0 +1,105 @@
+
+renderingOptions:
+  submitButtonLabel: Submit
+type: Form
+identifier: contact_form_1
+label: Contact_form_1
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'contact_form '
+      recipientAddress: videos@typo3.edu
+      recipientName: 'Admin typo3'
+      senderAddress: '{text-4}'
+      senderName: '{text-1} ,{text-2}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: 'false'
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: Page
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: LASTNAME
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: FIRSTNAME
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-3
+        label: ADDRESS
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-4
+        label: Email_ID
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Password
+        identifier: password-1
+        label: Password
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: MESSAGE
+      -
+        properties:
+          options:
+            'yes': 'yes'
+            'no': 'no'
+          fluidAdditionalAttributes:
+            required: required
+        type: RadioButton
+        identifier: radiobutton-1
+        label: 'Are you a customer already?'
+        validators:
+          -
+            identifier: NotEmpty
